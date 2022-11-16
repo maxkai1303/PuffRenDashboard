@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45049FEE2925360D00049E64 /* PuffRenDashboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45049FED2925360D00049E64 /* PuffRenDashboardApp.swift */; };
+		45049FF02925360D00049E64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45049FEF2925360D00049E64 /* ContentView.swift */; };
+		45049FF22925361000049E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45049FF12925361000049E64 /* Assets.xcassets */; };
+		45049FF52925361000049E64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45049FF42925361000049E64 /* Preview Assets.xcassets */; };
+		45049FFF2925361000049E64 /* PuffRenDashboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45049FFE2925361000049E64 /* PuffRenDashboardTests.swift */; };
+		4504A0092925361000049E64 /* PuffRenDashboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4504A0082925361000049E64 /* PuffRenDashboardUITests.swift */; };
+		4504A00B2925361000049E64 /* PuffRenDashboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4504A00A2925361000049E64 /* PuffRenDashboardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45049FFB2925361000049E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45049FE22925360D00049E64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45049FE92925360D00049E64;
+			remoteInfo = PuffRenDashboard;
+		};
+		4504A0052925361000049E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45049FE22925360D00049E64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45049FE92925360D00049E64;
+			remoteInfo = PuffRenDashboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45049FEA2925360D00049E64 /* PuffRenDashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuffRenDashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45049FED2925360D00049E64 /* PuffRenDashboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuffRenDashboardApp.swift; sourceTree = "<group>"; };
+		45049FEF2925360D00049E64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		45049FF12925361000049E64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45049FF42925361000049E64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		45049FFA2925361000049E64 /* PuffRenDashboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuffRenDashboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45049FFE2925361000049E64 /* PuffRenDashboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuffRenDashboardTests.swift; sourceTree = "<group>"; };
+		4504A0042925361000049E64 /* PuffRenDashboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuffRenDashboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4504A0082925361000049E64 /* PuffRenDashboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuffRenDashboardUITests.swift; sourceTree = "<group>"; };
+		4504A00A2925361000049E64 /* PuffRenDashboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuffRenDashboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45049FE72925360D00049E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45049FF72925361000049E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4504A0012925361000049E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45049FE12925360D00049E64 = {
+			isa = PBXGroup;
+			children = (
+				45049FEC2925360D00049E64 /* PuffRenDashboard */,
+				45049FFD2925361000049E64 /* PuffRenDashboardTests */,
+				4504A0072925361000049E64 /* PuffRenDashboardUITests */,
+				45049FEB2925360D00049E64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45049FEB2925360D00049E64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45049FEA2925360D00049E64 /* PuffRenDashboard.app */,
+				45049FFA2925361000049E64 /* PuffRenDashboardTests.xctest */,
+				4504A0042925361000049E64 /* PuffRenDashboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45049FEC2925360D00049E64 /* PuffRenDashboard */ = {
+			isa = PBXGroup;
+			children = (
+				45049FED2925360D00049E64 /* PuffRenDashboardApp.swift */,
+				45049FEF2925360D00049E64 /* ContentView.swift */,
+				45049FF12925361000049E64 /* Assets.xcassets */,
+				45049FF32925361000049E64 /* Preview Content */,
+			);
+			path = PuffRenDashboard;
+			sourceTree = "<group>";
+		};
+		45049FF32925361000049E64 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				45049FF42925361000049E64 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		45049FFD2925361000049E64 /* PuffRenDashboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				45049FFE2925361000049E64 /* PuffRenDashboardTests.swift */,
+			);
+			path = PuffRenDashboardTests;
+			sourceTree = "<group>";
+		};
+		4504A0072925361000049E64 /* PuffRenDashboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4504A0082925361000049E64 /* PuffRenDashboardUITests.swift */,
+				4504A00A2925361000049E64 /* PuffRenDashboardUITestsLaunchTests.swift */,
+			);
+			path = PuffRenDashboardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45049FE92925360D00049E64 /* PuffRenDashboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4504A00E2925361000049E64 /* Build configuration list for PBXNativeTarget "PuffRenDashboard" */;
+			buildPhases = (
+				45049FE62925360D00049E64 /* Sources */,
+				45049FE72925360D00049E64 /* Frameworks */,
+				45049FE82925360D00049E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PuffRenDashboard;
+			productName = PuffRenDashboard;
+			productReference = 45049FEA2925360D00049E64 /* PuffRenDashboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45049FF92925361000049E64 /* PuffRenDashboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4504A0112925361000049E64 /* Build configuration list for PBXNativeTarget "PuffRenDashboardTests" */;
+			buildPhases = (
+				45049FF62925361000049E64 /* Sources */,
+				45049FF72925361000049E64 /* Frameworks */,
+				45049FF82925361000049E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45049FFC2925361000049E64 /* PBXTargetDependency */,
+			);
+			name = PuffRenDashboardTests;
+			productName = PuffRenDashboardTests;
+			productReference = 45049FFA2925361000049E64 /* PuffRenDashboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4504A0032925361000049E64 /* PuffRenDashboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4504A0142925361000049E64 /* Build configuration list for PBXNativeTarget "PuffRenDashboardUITests" */;
+			buildPhases = (
+				4504A0002925361000049E64 /* Sources */,
+				4504A0012925361000049E64 /* Frameworks */,
+				4504A0022925361000049E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4504A0062925361000049E64 /* PBXTargetDependency */,
+			);
+			name = PuffRenDashboardUITests;
+			productName = PuffRenDashboardUITests;
+			productReference = 4504A0042925361000049E64 /* PuffRenDashboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45049FE22925360D00049E64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					45049FE92925360D00049E64 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					45049FF92925361000049E64 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 45049FE92925360D00049E64;
+					};
+					4504A0032925361000049E64 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 45049FE92925360D00049E64;
+					};
+				};
+			};
+			buildConfigurationList = 45049FE52925360D00049E64 /* Build configuration list for PBXProject "PuffRenDashboard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45049FE12925360D00049E64;
+			productRefGroup = 45049FEB2925360D00049E64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45049FE92925360D00049E64 /* PuffRenDashboard */,
+				45049FF92925361000049E64 /* PuffRenDashboardTests */,
+				4504A0032925361000049E64 /* PuffRenDashboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45049FE82925360D00049E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45049FF52925361000049E64 /* Preview Assets.xcassets in Resources */,
+				45049FF22925361000049E64 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45049FF82925361000049E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4504A0022925361000049E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45049FE62925360D00049E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45049FF02925360D00049E64 /* ContentView.swift in Sources */,
+				45049FEE2925360D00049E64 /* PuffRenDashboardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45049FF62925361000049E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45049FFF2925361000049E64 /* PuffRenDashboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4504A0002925361000049E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4504A00B2925361000049E64 /* PuffRenDashboardUITestsLaunchTests.swift in Sources */,
+				4504A0092925361000049E64 /* PuffRenDashboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45049FFC2925361000049E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45049FE92925360D00049E64 /* PuffRenDashboard */;
+			targetProxy = 45049FFB2925361000049E64 /* PBXContainerItemProxy */;
+		};
+		4504A0062925361000049E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45049FE92925360D00049E64 /* PuffRenDashboard */;
+			targetProxy = 4504A0052925361000049E64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4504A00C2925361000049E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4504A00D2925361000049E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4504A00F2925361000049E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PuffRenDashboard/Preview Content\"";
+				DEVELOPMENT_TEAM = 97D8WZ992M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.max.PuffRenDashboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4504A0102925361000049E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PuffRenDashboard/Preview Content\"";
+				DEVELOPMENT_TEAM = 97D8WZ992M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.max.PuffRenDashboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4504A0122925361000049E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97D8WZ992M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.max.PuffRenDashboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PuffRenDashboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PuffRenDashboard";
+			};
+			name = Debug;
+		};
+		4504A0132925361000049E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97D8WZ992M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.max.PuffRenDashboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PuffRenDashboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PuffRenDashboard";
+			};
+			name = Release;
+		};
+		4504A0152925361000049E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97D8WZ992M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.max.PuffRenDashboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PuffRenDashboard;
+			};
+			name = Debug;
+		};
+		4504A0162925361000049E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97D8WZ992M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.max.PuffRenDashboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PuffRenDashboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45049FE52925360D00049E64 /* Build configuration list for PBXProject "PuffRenDashboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4504A00C2925361000049E64 /* Debug */,
+				4504A00D2925361000049E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4504A00E2925361000049E64 /* Build configuration list for PBXNativeTarget "PuffRenDashboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4504A00F2925361000049E64 /* Debug */,
+				4504A0102925361000049E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4504A0112925361000049E64 /* Build configuration list for PBXNativeTarget "PuffRenDashboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4504A0122925361000049E64 /* Debug */,
+				4504A0132925361000049E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4504A0142925361000049E64 /* Build configuration list for PBXNativeTarget "PuffRenDashboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4504A0152925361000049E64 /* Debug */,
+				4504A0162925361000049E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45049FE22925360D00049E64 /* Project object */;
+}
