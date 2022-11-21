@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		45049FEE2925360D00049E64 /* PuffRenDashboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45049FED2925360D00049E64 /* PuffRenDashboardApp.swift */; };
-		45049FF02925360D00049E64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45049FEF2925360D00049E64 /* ContentView.swift */; };
+		45049FF02925360D00049E64 /* HomeDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45049FEF2925360D00049E64 /* HomeDashboardView.swift */; };
 		45049FF22925361000049E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45049FF12925361000049E64 /* Assets.xcassets */; };
 		45049FF52925361000049E64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45049FF42925361000049E64 /* Preview Assets.xcassets */; };
 		45049FFF2925361000049E64 /* PuffRenDashboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45049FFE2925361000049E64 /* PuffRenDashboardTests.swift */; };
 		4504A0092925361000049E64 /* PuffRenDashboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4504A0082925361000049E64 /* PuffRenDashboardUITests.swift */; };
 		4504A00B2925361000049E64 /* PuffRenDashboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4504A00A2925361000049E64 /* PuffRenDashboardUITestsLaunchTests.swift */; };
+		4504A0182925413A00049E64 /* PieSliceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4504A0172925413A00049E64 /* PieSliceView.swift */; };
+		4504A01A292BBC8A00049E64 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4504A019292BBC8A00049E64 /* HTTPClient.swift */; };
+		4504A01C292BBE9F00049E64 /* DashboardReportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4504A01B292BBE9F00049E64 /* DashboardReportModel.swift */; };
+		4504A01E292BC02700049E64 /* APIClientProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4504A01D292BC02700049E64 /* APIClientProvider.swift */; };
+		4504A021292BC30800049E64 /* APITargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4504A020292BC30800049E64 /* APITargetType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		45049FEA2925360D00049E64 /* PuffRenDashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuffRenDashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45049FED2925360D00049E64 /* PuffRenDashboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuffRenDashboardApp.swift; sourceTree = "<group>"; };
-		45049FEF2925360D00049E64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		45049FEF2925360D00049E64 /* HomeDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDashboardView.swift; sourceTree = "<group>"; };
 		45049FF12925361000049E64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45049FF42925361000049E64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		45049FFA2925361000049E64 /* PuffRenDashboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuffRenDashboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,11 @@
 		4504A0042925361000049E64 /* PuffRenDashboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuffRenDashboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4504A0082925361000049E64 /* PuffRenDashboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuffRenDashboardUITests.swift; sourceTree = "<group>"; };
 		4504A00A2925361000049E64 /* PuffRenDashboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuffRenDashboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4504A0172925413A00049E64 /* PieSliceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieSliceView.swift; sourceTree = "<group>"; };
+		4504A019292BBC8A00049E64 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		4504A01B292BBE9F00049E64 /* DashboardReportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardReportModel.swift; sourceTree = "<group>"; };
+		4504A01D292BC02700049E64 /* APIClientProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientProvider.swift; sourceTree = "<group>"; };
+		4504A020292BC30800049E64 /* APITargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITargetType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +84,7 @@
 		45049FE12925360D00049E64 = {
 			isa = PBXGroup;
 			children = (
+				4504A01F292BC28A00049E64 /* NetWork */,
 				45049FEC2925360D00049E64 /* PuffRenDashboard */,
 				45049FFD2925361000049E64 /* PuffRenDashboardTests */,
 				4504A0072925361000049E64 /* PuffRenDashboardUITests */,
@@ -95,7 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				45049FED2925360D00049E64 /* PuffRenDashboardApp.swift */,
-				45049FEF2925360D00049E64 /* ContentView.swift */,
+				45049FEF2925360D00049E64 /* HomeDashboardView.swift */,
+				4504A0172925413A00049E64 /* PieSliceView.swift */,
 				45049FF12925361000049E64 /* Assets.xcassets */,
 				45049FF32925361000049E64 /* Preview Content */,
 			);
@@ -125,6 +137,17 @@
 				4504A00A2925361000049E64 /* PuffRenDashboardUITestsLaunchTests.swift */,
 			);
 			path = PuffRenDashboardUITests;
+			sourceTree = "<group>";
+		};
+		4504A01F292BC28A00049E64 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				4504A019292BBC8A00049E64 /* HTTPClient.swift */,
+				4504A01D292BC02700049E64 /* APIClientProvider.swift */,
+				4504A020292BC30800049E64 /* APITargetType.swift */,
+				4504A01B292BBE9F00049E64 /* DashboardReportModel.swift */,
+			);
+			path = NetWork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45049FF02925360D00049E64 /* ContentView.swift in Sources */,
+				45049FF02925360D00049E64 /* HomeDashboardView.swift in Sources */,
+				4504A01C292BBE9F00049E64 /* DashboardReportModel.swift in Sources */,
 				45049FEE2925360D00049E64 /* PuffRenDashboardApp.swift in Sources */,
+				4504A021292BC30800049E64 /* APITargetType.swift in Sources */,
+				4504A01A292BBC8A00049E64 /* HTTPClient.swift in Sources */,
+				4504A01E292BC02700049E64 /* APIClientProvider.swift in Sources */,
+				4504A0182925413A00049E64 /* PieSliceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
